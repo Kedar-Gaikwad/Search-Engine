@@ -10,7 +10,7 @@ os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 # Cache data loading
 @st.cache_data
 def load_data(chunk_size=10000):
-    url = 'https://mystoragekedar.blob.core.windows.net/dataset/train.csv?sp=racw&st=2025-03-06T21:16:27Z&se=2025-03-07T05:16:27Z&spr=https&sv=2022-11-02&sr=b&sig=2NDQLc9AaIOWwKPAKTQVNPH7E5clugqGk3qd7gIbUo4%3D'
+    url = 'https://mystoragekedar.blob.core.windows.net/dataset?sp=r&st=2025-03-07T03:35:47Z&se=2025-03-14T10:35:47Z&spr=https&sv=2022-11-02&sr=c&sig=rdwTwcpBaHFqdS7WE41MylsTvl8IlzjmVKjMzA24rkA%3D'
     return url
 
 # Initialize txtai embeddings
