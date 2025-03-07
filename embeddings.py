@@ -17,7 +17,7 @@ os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 # Cache data loading
 def load_data():
-    path = r'C:\Users\kedar\Documents\Data and Text Mining\AS4\archive\dataset\train.csv'
+    path = r'archive\dataset\train.csv'
     df = pd.read_csv(path).dropna()
     return df
 
